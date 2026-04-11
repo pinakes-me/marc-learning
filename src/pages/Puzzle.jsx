@@ -251,7 +251,7 @@ export default function Puzzle() {
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <div className="text-lg font-bold text-text">🌱 기본표목(100) 사용 방식</div>
+                  <div className="text-lg font-bold text-text">기본표목(100) 사용 방식</div>
                 </div>
                 <span className="inline-flex items-center rounded-full border border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)] px-2 py-0.5 font-mono text-xs text-accent2">
                   예전 방식
@@ -270,7 +270,7 @@ export default function Puzzle() {
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <div className="text-lg font-bold text-text">🌿 기본표목 없이 245부터 시작</div>
+                  <div className="text-lg font-bold text-text">기본표목 없이 245부터 시작</div>
                 </div>
                 <span className="inline-flex items-center rounded-full border border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)] px-2 py-0.5 font-mono text-xs text-accent2">
                   현행 방식
