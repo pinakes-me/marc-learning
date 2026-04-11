@@ -24,24 +24,6 @@ export default function Weak() {
     .filter(([_, s]) => s.wrong > 0)
     .sort((a, b) => b[1].wrong - a[1].wrong)
 
-  const badges = [
-    {
-      text: '오답 노트',
-      className:
-        'text-accent2 border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)]',
-    },
-    {
-      text: '필드별 반복',
-      className:
-        'text-accent border-[rgba(33,150,243,0.25)] bg-[rgba(33,150,243,0.08)]',
-    },
-    {
-      text: '개인화 재출제',
-      className:
-        'text-success border-[rgba(38,166,154,0.25)] bg-[rgba(38,166,154,0.08)]',
-    },
-  ]
-
   return (
     <div className="fade-up mx-auto max-w-[480px] p-6 pb-24 pt-10">
       <header className="space-y-2">
@@ -61,21 +43,6 @@ export default function Weak() {
               {'\n'}MARC 훈련을 먼저 시작하면
               {'\n'}오답 데이터가 여기에 쌓여요.
             </p>
-
-            <div className="mt-5 flex flex-wrap justify-center gap-2">
-              {badges.map((b) => (
-                <span
-                  key={b.text}
-                  className={[
-                    'inline-flex items-center rounded-full border px-2 py-0.5',
-                    'font-mono text-xs',
-                    b.className,
-                  ].join(' ')}
-                >
-                  {b.text}
-                </span>
-              ))}
-            </div>
           </div>
         ) : (
           <div className="space-y-3">
