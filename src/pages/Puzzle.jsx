@@ -241,7 +241,7 @@ export default function Puzzle() {
 
           <div className="mt-4 space-y-3">
             <div
-              className="cursor-pointer rounded-2xl border border-border bg-white p-6 shadow-sm transition-colors hover:border-accent"
+              className="cursor-pointer rounded-2xl border border-border bg-white p-4 shadow-sm transition-colors hover:border-accent"
               role="button"
               tabIndex={0}
               onClick={() => start('KCR4')}
@@ -249,18 +249,20 @@ export default function Puzzle() {
                 if (e.key === 'Enter' || e.key === ' ') start('KCR4')
               }}
             >
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <div className="text-lg font-bold text-text">기본표목(100) 사용 방식</div>
+              <div className="flex items-center justify-between gap-2">
+                <div className="min-w-0 flex-1 overflow-x-auto">
+                  <div className="whitespace-nowrap text-lg font-bold text-text">
+                    기본표목(100) 사용 방식
+                  </div>
                 </div>
-                <span className="inline-flex items-center rounded-full border border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)] px-2 py-0.5 font-mono text-xs text-accent2">
+                <span className="inline-flex shrink-0 items-center whitespace-nowrap rounded-full border border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)] px-2 py-0.5 font-mono text-xs text-accent2">
                   예전 방식
                 </span>
               </div>
             </div>
 
             <div
-              className="cursor-pointer rounded-2xl border border-border bg-white p-6 shadow-sm transition-colors hover:border-accent"
+              className="cursor-pointer rounded-2xl border border-border bg-white p-4 shadow-sm transition-colors hover:border-accent"
               role="button"
               tabIndex={0}
               onClick={() => start('KCR5')}
@@ -268,11 +270,13 @@ export default function Puzzle() {
                 if (e.key === 'Enter' || e.key === ' ') start('KCR5')
               }}
             >
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <div className="text-lg font-bold text-text">기본표목 없이 245부터 시작</div>
+              <div className="flex items-center justify-between gap-2">
+                <div className="min-w-0 flex-1 overflow-x-auto">
+                  <div className="whitespace-nowrap text-lg font-bold text-text">
+                    기본표목 없이 245부터 시작
+                  </div>
                 </div>
-                <span className="inline-flex items-center rounded-full border border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)] px-2 py-0.5 font-mono text-xs text-accent2">
+                <span className="inline-flex shrink-0 items-center whitespace-nowrap rounded-full border border-[rgba(92,107,192,0.25)] bg-[rgba(92,107,192,0.08)] px-2 py-0.5 font-mono text-xs text-accent2">
                   현행 방식
                 </span>
               </div>
