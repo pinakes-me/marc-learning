@@ -46,10 +46,10 @@ export default function Weak() {
     <div className="fade-up mx-auto max-w-[480px] p-6 pb-24 pt-10">
       <header className="space-y-2">
         <div className="font-mono text-xs tracking-widest text-accent2 uppercase">
-          // WEAK_TRAINING
+          // WEAK_FIELDS
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">약점 집중 훈련</h1>
-        <p className="text-sm text-muted">자주 틀리는 필드를 집중적으로 복습해요</p>
+        <h1 className="text-3xl font-bold tracking-tight">약점 필드</h1>
+        <p className="text-sm text-muted">자주 틀리는 필드를 확인해요</p>
       </header>
 
       <section className="mt-6">

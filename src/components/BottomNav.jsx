@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 const TABS = [
   { to: '/', icon: '🏠', label: '홈' },
   { to: '/training', icon: '📚', label: 'MARC 훈련' },
-  { to: '/weak', icon: '🎯', label: '약점 집중' },
+  { to: '/weak', icon: '🎯', label: '약점 필드' },
   { to: '/analytics', icon: '📊', label: '학습 분석' },
 ]
 
